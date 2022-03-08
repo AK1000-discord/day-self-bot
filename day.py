@@ -19,36 +19,9 @@ with open('config.json') as f:
     prefix = d["prefix"]
     server = d["server"]
 calendar_month = calendar.month(2022, 3)
-bot = commands.Bot(command_prefix=prefix, self_bot=True,  help_command=None, fetch_offline_members=False)
+bot = commands.Bot(command_prefix=prefix, self_bot=True, fetch_offline_members=False)
 
 
-#cog
-
-
-
-#help
-#@bot.command()
-#async def help(ctx):
-#    await ctx.send(f"ban:userban\nbin:botinvitelink\nbk:idiotlol\nだるいから自力で何とかしろ")            
-#c      
-#cl     
-#clear  
-#day    
-#eu     
-#fe     
-#gb     
-#gi     
-#gs     
-#help   Shows this message
-#kami   
-#minfo  
-#nani   
-#sinfo  
-#status 
-#time   
-#ub     
-#ui     
-#ys 
    
 #timecommand
 @bot.command(pass_context=True)
