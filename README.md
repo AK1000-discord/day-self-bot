@@ -1,2 +1,2 @@
 # day self bot
-# Please write prefix, token and supportserver in config.json
+# Please write prefix and token in config.json
