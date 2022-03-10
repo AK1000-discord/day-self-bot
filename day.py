@@ -244,7 +244,7 @@ async def bin(ctx, *, member: discord.Member = None):
 #event＆run
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name=f"support {server}| {len(bot.guilds)} joinserver", url="https://discord.gg"))
+    await bot.change_presence(activity=discord.Streaming(name=f"{bot.user}| {len(bot.guilds)} joinserver", url="https://discord.gg"))
     print("""
                                                                                                             __________
    ______________     ________________     ____            __________________     _________               /   _______  \         __________________                                                                                                                                                                                                                                                                                              
@@ -261,12 +261,11 @@ async def on_ready():
  |               |   |                |   |            |  |    |                 |   |___|      /        \   \_______/  /              |    |                                                                                                       
  |_______________|   |________________|   |____________|  |____|                 |_____________/          \ __________ /               |____| 
 
+day-self-bot owner AK#1000
+support https://discord.gg/4SE7U5TecJ
 
 """)
     print(f"supportserver{server} made by {bot.user}")
-
     print(f"accountdata {bot.user} | {bot.user.id}")
-
-    print(f"supportserver {server}")
     
 bot.run(token, bot=False) 
