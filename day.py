@@ -9,9 +9,6 @@ from discord import Member
 import calendar
 from colorama import Fore, Back, Style
 
-
-logging.basicConfig(level=logging.INFO)
-
 #onn
 with open('config.json') as f:
     d = load(f)
