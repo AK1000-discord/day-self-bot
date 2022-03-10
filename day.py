@@ -268,4 +268,4 @@ support https://discord.gg/4SE7U5TecJ
     print(f"supportserver{server} made by {bot.user}")
     print(f"accountdata {bot.user} | {bot.user.id}")
     
-bot.run(token, bot=False) 
+bot.run(token, bot=False)
