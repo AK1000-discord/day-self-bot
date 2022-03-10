@@ -1,1 +1,1 @@
-python3 bump.py
+python bump.py
